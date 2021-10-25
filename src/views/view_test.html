@@ -1,0 +1,8 @@
+<!-- VULNERABLE -->
+<h1>Vulnerable</h1>
+<script>{{someParam}}</script>
+<a href={{someParam}}>Click Here</a><br/><br/>
+<div onclick={{someParam}}>Click Here 2</div><br/><br/>
+<!-- NOT VULNERABLE -->
+<h1>Not Vulnerable</h1>
+<div>{{someParam}}</div>
